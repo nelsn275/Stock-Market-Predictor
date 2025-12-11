@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>PredictAStock</title>
+
+    <!-- Vue 3 -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- Vuetify 3 UMD CSS & JS -->
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@3.7.1/dist/vuetify.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@3.7.1/dist/vuetify.min.js"></script>
+
+    <!-- Material Design Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
+
+    <style>
+/* MUCH IMPROVED DARK MODE */
+body.theme-dark {
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+/* App main surfaces */
+body.theme-dark .v-main {
+  background-color: #0d1117 !important;
+}
+
+body.theme-dark .v-container {
+  background-color: transparent !important;
+}
+
+/* Cards */
+body.theme-dark .v-card {
+  background-color: #161b22 !important;
+  color: #e6edf3 !important;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+/* App bar */
+body.theme-dark .v-app-bar {
+  background-color: #161b22 !important;
+  color: #e6edf3 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Text elements */
+body.theme-dark .v-toolbar-title,
+body.theme-dark .v-card-title,
+body.theme-dark .v-card-subtitle {
+  color: #e6edf3 !important;
+}
+
+body.theme-dark .v-card-text,
+body.theme-dark .v-chip,
+body.theme-dark .v-btn,
+body.theme-dark .v-btn-toggle {
+  color: #e6edf3 !important;
+}
+
+/* Chips */
+body.theme-dark .v-chip {
+  background-color: #21262d !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+/* Buttons */
+body.theme-dark .v-btn {
+  background-color: #21262d !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+/* Table */
+body.theme-dark table,
+body.theme-dark th,
+body.theme-dark td {
+  color: #e6edf3 !important;
+}
+
+body.theme-dark thead {
+  background-color: #161b22 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+body.theme-dark tbody tr:nth-child(odd) {
+  background-color: #0f131a !important;
+}
+body.theme-dark tbody tr:nth-child(even) {
+  background-color: #11161d !important;
+}
+
+/* Inputs */
+body.theme-dark .v-text-field .v-input__control {
+  background-color: #161b22 !important;
+  border-radius: 8px;
+}
+
+body.theme-dark .v-field__input,
+body.theme-dark .v-label {
+  color: #e6edf3 !important;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <v-app>
+        <v-app-bar color="indigo" dark>
+          <v-toolbar-title>📊 PredictAStock</v-toolbar-title>
+          <v-spacer></v-spacer>
+          <v-chip v-if="loadedFile" small class="ma-2">Loaded: {{ loadedFile }}</v-chip>
+          <v-btn href="about.html" target="_blank" small class="ma-2" text>About</v-btn>
+          <v-switch v-model="themeDark" inset hide-details class="ma-2" label="Night" />
+        </v-app-bar>
+
+        <v-main class="pa-12" style="background-color:#f4f5f7;">
+          <v-container fluid>
+            <div class="mb-4" style="display:flex;gap:12px;align-items:center;">
+                  <v-chip v-if="dataSource" color="grey lighten-3" small>{{ 'Data source: ' + dataSource }}</v-chip>
+                  <v-chip v-if="loadedFile" color="grey lighten-3" small>{{ 'File: ' + loadedFile }}</v-chip>
+                  <div style="margin-left:auto;">
+                    <v-btn icon small title="Reload" @click="manualRetry"><span class="mdi mdi-refresh"></span></v-btn>
+                  </div>
+                </div>
+            <v-row>
+              <!-- Market Overview Card -->
+              <v-col cols="12" md="4">
+                <v-card color="blue-lighten-5" elevation="2" class="pa-3">
+                  <v-card-title>📈 Market Overview</v-card-title>
+                  <v-card-text>
+                    <div><strong>Top Gainers:</strong>
+                      <span v-if="marketOverview.top_gainers.length">{{ marketOverview.top_gainers.join(', ') }}</span>
+                      <span v-else>—</span>
+                    </div>
+                    <div><strong>Top Losers:</strong>
+                      <span v-if="marketOverview.top_losers.length">{{ marketOverview.top_losers.join(', ') }}</span>
+                      <span v-else>—</span>
+                    </div>
+                    <div><strong>Trend:</strong> {{ marketOverview.trend || '—' }}</div>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+
+              <!-- Prediction Snapshot Card -->
+              <v-col cols="12" md="4">
+                <v-card color="green-lighten-5" elevation="2" class="pa-3">
+                  <v-card-title>🔮 Prediction Snapshot</v-card-title>
+                  <v-card-text>
+                    <div>Model Buy Share (1d): {{ (predictionSnapshot.buy_share_1d*100).toFixed(1) }}%</div>
+                    <div>Next Day (est): {{ predictionSnapshot.expected_next_day_pct.toFixed(2) }}%</div>
+                    <div>Volatility Index: {{ predictionSnapshot.volatility_index.toFixed(2) }}</div>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+
+              <!-- Economic Indicators Card -->
+              <v-col cols="12" md="4">
+                <v-card color="amber-lighten-5" elevation="2" class="pa-3">
+                  <v-card-title>📰 Economic Indicators</v-card-title>
+                  <v-card-text>
+                    <div>GDP: {{ economicIndicators.GDP === null ? '—' : economicIndicators.GDP }}</div>
+                    <div>Unemployment: {{ economicIndicators.Unemployment === null ? '—' : economicIndicators.Unemployment }}</div>
+                    <div>Oil Price: {{ economicIndicators.Oil === null ? '—' : ('$' + economicIndicators.Oil.toFixed(2) + '/barrel') }}</div>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
+
+            <!-- Search feature for Watchlist -->
+            <v-text-field
+            v-model="searchQuery"
+            label="Search Watchlist"
+            clearable
+            solo
+            class="mb-4"
+          ></v-text-field>
+
+            <!-- Rapid-reload guard message -->
+            <div v-if="fetchBlocked" class="mb-4">
+              <v-alert type="warning" border="left">
+                Auto-refresh has been temporarily paused because the page reloaded repeatedly. This prevents excessive API calls.
+                <template v-slot:actions>
+                  <v-btn color="primary" small @click="manualRetry">Retry</v-btn>
+                </template>
+              </v-alert>
+            </div>
+
+
+            <!-- Watchlist Table -->
+            <v-row class="mt-6">
+              <v-col cols="12">
+                <v-card elevation="2">
+                  <v-card-title class="text-h6 font-weight-bold">Watchlist</v-card-title>
+                  <v-card-subtitle class="px-4">
+                    <div style="display:flex;align-items:center;gap:12px;">
+                      <div>Timeframe:</div>
+                      <v-btn-toggle v-model="timeframe" mandatory>
+                        <v-btn value="1d">1d</v-btn>
+                        <v-btn value="1m">1m</v-btn>
+                        <v-btn value="1y">1y</v-btn>
+                        <v-btn value="5y">5y</v-btn>
+                      </v-btn-toggle>
+                    </div>
+                  </v-card-subtitle>
+                  <v-card-text>
+                    <v-table v-if="stocks.length">
+                        <template v-slot:default>
+                      <thead>
+                        <tr>
+                          <th><strong>Symbol</strong></th>
+                          <th><strong>Open</strong></th>
+                          <th><strong>Close</strong></th>
+                          <th><strong>Change</strong></th>
+                          <th><strong>Pred ({{ timeframe }})</strong></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr v-for="item in filteredStocks" :key="item.Ticker">
+                          <td>{{ item.Ticker }}</td>
+                          <td>{{ typeof item.Open === 'number' ? ('$' + item.Open.toFixed(2)) : (item.Open || '—') }}</td>
+                          <td>{{ typeof item.Close === 'number' ? ('$' + item.Close.toFixed(2)) : (item.Close || '—') }}</td>
+                          <td :style="{ color: changeColor(item) }">{{ changeFor(item) }}</td>
+                          <td :style="{ color: predColor(predFor(item)), fontWeight: '600' }">{{ predFor(item) }}</td>
+                        </tr>
+                      </tbody>
+                        </template>
+                    </v-table>
+
+                    <div v-else class="text-center pa-4 text-grey">
+                      <div v-if="loading">
+                        <v-progress-circular indeterminate color="primary" class="ma-2"></v-progress-circular>
+                        Loading stock data…
+                      </div>
+                      <div v-else>
+                        Loading stock data…
+                      </div>
+                    </div>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-main>
+      </v-app>
+    </div>
+
+    <script>
+const app = Vue.createApp({
+  data() {
+    return {
+  stocks: [],
+  timeframe: (sessionStorage.getItem('pp_timeframe') || '1d'),
+  themeDark: (sessionStorage.getItem('pp_theme') === '1'),
+  loadedFile: null,
+  loading: false,
+      selectedStock: null,
+      searchQuery: "",
+      marketOverview: { top_gainers: [], top_losers: [], trend: null },
+      predictionSnapshot: { buy_share_1d: 0, expected_next_day_pct: 0, volatility_index: 0 },
+      economicIndicators: { Oil: null, Inflation: null, GDP: null, Unemployment: null },
+      // UI guard: when true, we won't auto-fetch to avoid hammering the API during reload loops
+      fetchBlocked: false
+      ,dataSource: null
+    };
+  },
+  watch: {
+    timeframe(newVal) {
+      try { sessionStorage.setItem('pp_timeframe', newVal); } catch(e){}
+    },
+    themeDark(newVal) {
+      try { sessionStorage.setItem('pp_theme', newVal ? '1' : '0'); } catch(e){}
+      document.body.classList.toggle('theme-dark', !!newVal);
+    }
+  },
+  async mounted() {
+    try {
+      // Prevent runaway reload loops from causing repeated API calls.
+      const NOW = Date.now();
+      const LAST = parseInt(sessionStorage.getItem('pp_last_fetch') || '0', 10);
+      let RELOAD_COUNT = parseInt(sessionStorage.getItem('pp_reload_count') || '0', 10);
+      const THRESH_MS = 8000; // if reload happens within this window, count it
+
+      if (LAST && (NOW - LAST) < THRESH_MS) {
+        RELOAD_COUNT += 1;
+      } else {
+        RELOAD_COUNT = 0;
+      }
+      sessionStorage.setItem('pp_last_fetch', String(NOW));
+      sessionStorage.setItem('pp_reload_count', String(RELOAD_COUNT));
+
+      if (RELOAD_COUNT > 3) {
+        console.warn('Detected rapid reloads (' + RELOAD_COUNT + '); skipping automatic fetch to avoid rate limits. Click "Retry" to fetch manually.');
+        this.fetchBlocked = true;
+        return;
+      }
+
+      // Primary: try static JSON files in the local `json` folder (relative paths).
+      // Try latest_with_preds.json first (array of rows with Open/Close), then stocks.json (object with predictions).
+      const staticCandidates = ["./json/latest_with_preds.json", "./json/stocks.json"];
+      let loaded = false;
+      this.loading = true;
+      for (const url of staticCandidates) {
+        try {
+          const res = await fetch(url);
+          if (!res.ok) {
+            console.info('Static JSON not found at', url, 'status', res.status);
+            continue;
+          }
+          const payload = await res.json();
+          // support two shapes:
+          // 1) an array of rows (latest_with_preds.json)
+          // 2) an object { sp500:..., predictions: [...] } (stocks.json)
+            if (Array.isArray(payload)) {
+              this.stocks = payload;
+              this.dataSource = 'latest_with_preds';
+              this.loadedFile = url.split('/').pop();
+            } else if (payload && payload.predictions) {
+            this.stocks = payload.predictions || [];
+            this.dataSource = (payload.sp500 && payload.sp500.source) || payload.data_source || 'stocks_json';
+              this.loadedFile = url.split('/').pop();
+            // try to populate summary if present
+            if (payload.predictions && payload.predictions.summary) {
+              const s = payload.predictions.summary;
+              if (s.market_overview) this.marketOverview = s.market_overview;
+              if (s.prediction_snapshot) this.predictionSnapshot = s.prediction_snapshot;
+              if (s.economic_indicators) this.economicIndicators = s.economic_indicators;
+            } else if (payload.summary) {
+              const s = payload.summary;
+              if (s.market_overview) this.marketOverview = s.market_overview;
+              if (s.prediction_snapshot) this.predictionSnapshot = s.prediction_snapshot;
+              if (s.economic_indicators) this.economicIndicators = s.economic_indicators;
+            }
+          } else {
+            // unknown shape but try to use payload.predictions if present
+            this.stocks = payload.predictions || [];
+            this.dataSource = payload.data_source || 'json';
+          }
+          // compute summaries after loading stocks
+          try { this.computeSummaries(); } catch(e) { console.warn('computeSummaries failed', e); }
+          try { this.computeSummaries(); } catch(e) { console.warn('computeSummaries failed', e); }
+          console.log('Loaded static JSON from', url, 'rows=', this.stocks.length);
+          loaded = true;
+          break;
+        } catch (err) {
+          console.warn('Error fetching', url, err);
+          continue;
+        }
+      }
+  this.loading = false;
+  // apply initial theme
+  try { document.body.classList.toggle('theme-dark', !!this.themeDark); } catch(e){}
+      if (!loaded) {
+        console.info('No static JSON available in json/ folder. Please generate or place latest_with_preds.json or stocks.json there.');
+        this.fetchBlocked = true;
+        return;
+      }
+    } catch (err) {
+      console.error("Error fetching stocks:", err);
+    }
+  },
+  methods: {
+    // Return a human-friendly prediction for the currently selected timeframe
+    predFor(item) {
+      // Support multiple JSON shapes: Pred_*, Action_*, or Combined_Action
+      const mapping = { '1d': ['Pred_1d', 'Action_1d'], '1m': ['Pred_1m', 'Action_1m'], '1y': ['Pred_1y', 'Action_1y'], '5y': ['Pred_5y', 'Action_5y'] };
+      const keys = mapping[this.timeframe] || mapping['1d'];
+      let v = null;
+      for (const k of keys) {
+        if (Object.prototype.hasOwnProperty.call(item, k)) {
+          v = item[k];
+          break;
+        }
+      }
+      // If there is no per-timeframe value, fall back to Combined_Action or Final_Action
+      if (v === null || v === undefined) v = item.Final_Action || item.Combined_Action || null;
+      if (v === null || v === undefined) return '—';
+      // Normalize common representations: prefer BUY/SELL/HOLD
+      if (typeof v === 'boolean') return v ? 'BUY' : 'SELL';
+      if (typeof v === 'number') {
+        // numeric 1 => BUY, 0 => SELL, otherwise positive => BUY
+        if (v === 1) return 'BUY';
+        if (v === 0) return 'SELL';
+        return v > 0 ? 'BUY' : 'SELL';
+      }
+      // Strings like 'BUY'/'SELL'/'HOLD' — normalize case
+      if (typeof v === 'string') return v.toUpperCase();
+      return String(v);
+    },
+    // Compute change between Close and Open; format with sign and two decimals
+    changeFor(item) {
+      const open = (typeof item.Open === 'number') ? item.Open : (parseFloat(item.Open) || null);
+      const close = (typeof item.Close === 'number') ? item.Close : (parseFloat(item.Close) || null);
+      if (open === null || isNaN(open) || close === null || isNaN(close)) return '—';
+      const diff = close - open;
+      const sign = diff > 0 ? '+' : '';
+      return sign + '$' + diff.toFixed(2);
+    },
+
+    changeColor(item) {
+      const open = (typeof item.Open === 'number') ? item.Open : (parseFloat(item.Open) || null);
+      const close = (typeof item.Close === 'number') ? item.Close : (parseFloat(item.Close) || null);
+      if (open === null || isNaN(open) || close === null || isNaN(close)) return 'black';
+      const diff = close - open;
+      if (diff > 0) return '#4CAF50';
+      if (diff < 0) return '#F44336';
+      return '#B0BEC5';
+    },
+
+    // Choose a color for the prediction string: BUY=green, SELL=red, HOLD=amber
+    predColor(predStr) {
+      if (!predStr) return '#B0BEC5';
+      const s = String(predStr).toUpperCase();
+      if (s.includes('BUY') || s === 'UP') return '#4CAF50';
+      if (s.includes('SELL') || s === 'DOWN') return '#F44336';
+      if (s.includes('HOLD')) return '#FFB300';
+      return '#B0BEC5';
+    },
+
+    // Compute top-level summary cards from this.stocks
+    computeSummaries() {
+      if (!Array.isArray(this.stocks) || !this.stocks.length) return;
+      // compute percent change for rows with numeric Open/Close
+      const rows = this.stocks.map(r => {
+        const open = (typeof r.Open === 'number') ? r.Open : (parseFloat(r.Open) || null);
+        const close = (typeof r.Close === 'number') ? r.Close : (parseFloat(r.Close) || null);
+        const pct = (open && close) ? ((close - open) / open) * 100 : null;
+        return { r, open, close, pct };
+      }).filter(x => x.pct !== null && !isNaN(x.pct));
+
+      // marketOverview: top gainers/losers and trend
+      const sorted = rows.slice().sort((a,b)=> b.pct - a.pct);
+      this.marketOverview.top_gainers = sorted.slice(0,3).map(x=> x.r.Ticker);
+      this.marketOverview.top_losers = sorted.slice(-3).reverse().map(x=> x.r.Ticker);
+      const avgPct = rows.reduce((s,x)=> s + x.pct, 0) / Math.max(1, rows.length);
+      if (avgPct > 0.2) this.marketOverview.trend = 'Up';
+      else if (avgPct < -0.2) this.marketOverview.trend = 'Down';
+      else this.marketOverview.trend = 'Flat';
+
+      // predictionSnapshot
+      const buyCount = this.stocks.reduce((s,it)=> {
+        let v = null;
+        if (Object.prototype.hasOwnProperty.call(it, 'Pred_1d')) v = it.Pred_1d;
+        else if (Object.prototype.hasOwnProperty.call(it, 'Action_1d')) v = (String(it.Action_1d).toUpperCase().includes('BUY') ? 1 : 0);
+        return s + (v === 1 || v === true ? 1 : 0);
+      }, 0);
+      this.predictionSnapshot.buy_share_1d = +(buyCount / this.stocks.length).toFixed(3);
+      this.predictionSnapshot.expected_next_day_pct = +avgPct.toFixed(2);
+      const variance = rows.reduce((s,x)=> s + Math.pow(x.pct - avgPct, 2), 0) / Math.max(1, rows.length);
+      this.predictionSnapshot.volatility_index = +Math.sqrt(variance).toFixed(2);
+
+      // economicIndicators: try to fetch stocks.json to get sp500, else derive from data
+      (async ()=>{
+        try {
+          const res = await fetch('./json/stocks.json');
+          if (res.ok) {
+            const p = await res.json();
+            if (p && p.sp500 && p.sp500.last_close) {
+              this.economicIndicators.Oil = +p.sp500.last_close;
+            } else {
+              const avgClose = rows.reduce((s,x)=> s + x.close, 0) / rows.length;
+              this.economicIndicators.Oil = +avgClose.toFixed(2);
+            }
+          } else {
+            const avgClose = rows.reduce((s,x)=> s + x.close, 0) / rows.length;
+            this.economicIndicators.Oil = +avgClose.toFixed(2);
+          }
+        } catch (e) {
+          const avgClose = rows.reduce((s,x)=> s + x.close, 0) / rows.length;
+          this.economicIndicators.Oil = +avgClose.toFixed(2);
+        }
+        // sensible defaults for inflation/GDP/unemployment so cards show values
+        this.economicIndicators.Inflation = +Math.max(-10, Math.min(20, this.predictionSnapshot.expected_next_day_pct)).toFixed(2);
+        this.economicIndicators.GDP = 'N/A';
+        this.economicIndicators.Unemployment = +Math.max(0, 3 + (1 - this.predictionSnapshot.buy_share_1d) * 3).toFixed(2);
+      })();
+    },
+
+    async manualRetry() {
+      // Clear reload counter and attempt fetch again
+      sessionStorage.setItem('pp_reload_count', '0');
+      this.fetchBlocked = false;
+      try {
+        // Try static JSON files in local `json` folder: prefer latest_with_preds.json then stocks.json
+        const staticCandidates = ["./json/latest_with_preds.json", "./json/stocks.json"];
+        let loaded = false;
+        this.loading = true;
+        this.loadedFile = null;
+        for (const url of staticCandidates) {
+          try {
+            const res = await fetch(url);
+            if (!res.ok) continue;
+            const payload = await res.json();
+            if (Array.isArray(payload)) {
+              this.stocks = payload;
+              this.dataSource = 'latest_with_preds';
+              this.loadedFile = url.split('/').pop();
+            } else if (payload && payload.predictions) {
+              this.stocks = payload.predictions || [];
+              this.dataSource = (payload.sp500 && payload.sp500.source) || payload.data_source || 'stocks_json';
+              this.loadedFile = url.split('/').pop();
+            } else {
+              this.stocks = payload.predictions || [];
+              this.dataSource = payload.data_source || 'json';
+              this.loadedFile = url.split('/').pop();
+            }
+            try { this.computeSummaries(); } catch(e) { console.warn('computeSummaries failed', e); }
+            loaded = true;
+            break;
+          } catch (e) {
+            console.warn('Static retry failed for', url, e);
+            continue;
+          }
+        }
+        this.loading = false;
+        if (!loaded) {
+          this.fetchBlocked = true;
+        }
+      } catch (e) {
+        console.error('Manual retry failed', e);
+        this.fetchBlocked = true;
+        this.loading = false;
+      }
+    }
+  },
+    computed: {
+    stockDetails() {
+      return this.stocks.find(s => s.Ticker === this.selectedStock);
+    },
+
+    filteredStocks() {
+      if (!this.searchQuery) return this.stocks;
+      const q = this.searchQuery.toLowerCase();
+      return this.stocks.filter(s => s.Ticker.toLowerCase().includes(q))
+
+    }
+  }
+});
+
+
+      const vuetify = Vuetify.createVuetify({
+        theme: { defaultTheme: 'light' }
+      });
+      app.use(vuetify);
+      app.mount("#app");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About PredictAStock</title>
+    <style>
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin: 0; color:#0b1220; background: #f7fafc; }
+      header { background: #334155; color: #fff; padding: 20px 24px; }
+      main { max-width: 900px; margin: 28px auto; padding: 0 18px; }
+      h1 { margin: 0 0 6px 0; }
+      p { line-height: 1.5; color:#0f172a; }
+      .card { background: #fff; border-radius: 8px; padding: 18px; box-shadow: 0 6px 18px rgba(15,23,42,0.06); margin: 16px 0; }
+      .legend { display:flex; gap:12px; align-items:center; margin-top:12px; }
+      .dot { width:14px; height:14px; border-radius:50%; display:inline-block; }
+      footer { text-align:center; color:#64748b; padding: 26px 8px; }
+      a { color:#0f62fe; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>PredictAStock — Quick Guide</h1>
+      <div style="opacity:0.9">A simple, static-first UI showing stock price data and model predictions.</div>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>What this site shows</h2>
+        <p>
+          The page displays a watchlist of stocks with their latest Open and Close prices, a computed Change, and a model prediction for a selected time horizon (1 day, 1 month, 1 year, 5 years).
+          The prediction for each stock is one of: <strong>BUY</strong>, <strong>SELL</strong>, or <strong>HOLD</strong>.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>How to use it (for anyone)</h2>
+        <ol>
+          <li>Open <code>index.html</code> in your browser. For best results, serve the folder with a simple static server (instructions below).</li>
+          <li>The page looks for a file in the <code>json/</code> folder called <code>latest_with_preds.json</code> or <code>stocks.json</code>. If found, it will load the data automatically.</li>
+          <li>Use the <strong>Timeframe</strong> buttons above the table to switch which prediction you see (1d/1m/1y/5y).</li>
+          <li>Click the small reload icon to re-read the JSON files if you updated them on disk.</li>
+          <li>Use the Night switch in the top-right to toggle dark mode.</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>Color legend</h2>
+        <div class="legend">
+          <div class="dot" style="background:#4CAF50"></div><div>BUY (green)</div>
+          <div class="dot" style="background:#F44336"></div><div>SELL (red)</div>
+          <div class="dot" style="background:#FFB300"></div><div>HOLD (amber)</div>
+        </div>
+        <p style="margin-top:12px">The Change column is green when the Close is higher than the Open, red when lower, and gray when unchanged or not available.</p>
+      </section>
+
+      <section class="card">
+        <h2>How this works (simple explanation)</h2>
+        <p>
+          A model was trained on historical market and economic data to produce predictions for many stocks. The predictions are saved to a JSON file (called <code>results.json</code>), and the latest prices are fetched and merged with the predictions into files inside the <code>json/</code> folder. The website simply reads those JSON files and shows the results — no server required.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>For maintainers / curious users</h2>
+        <p>
+          If you want to regenerate the JSON used by the site:
+        </p>
+        <pre style="background:#f1f5f9;padding:10px;border-radius:6px;color:#0f172a">python stocks.py
+# or (if you need to retrain models) python decision_tree.py</pre>
+        <p>
+          If you don't want to run Python locally, you can simply drop a file named <code>latest_with_preds.json</code> inside the <code>json/</code> folder that follows the same format (an array of objects with keys like <code>Ticker</code>, <code>Open</code>, <code>Close</code>, <code>Pred_1d</code>, etc.).
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Troubleshooting</h2>
+        <ul>
+          <li>If the page shows "Loading stock data…" but never loads, make sure you are serving the files over <code>http://</code> (browsers often block local file fetches). Run: <code>python -m http.server 8000</code> and open <code>http://localhost:8000/index.html</code>.</li>
+          <li>If numbers look wrong, confirm the JSON files in the <code>json/</code> folder contain the expected fields (`Open`, `Close`, `Pred_1d` / `Action_1d`, etc.).</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Want to help improve this?</h2>
+        <p>
+          Suggestions: add a schedule to regenerate the JSON automatically, host the UI as a static site (Netlify/GitHub Pages), or improve the prediction confidence display (show probability or model score next to BUY/SELL).
+        </p>
+      </section>
+
+      <footer>
+        Built for a Senior Project. For developer docs see <a href="README.md">README.md</a> in the project root.
+        &nbsp;•&nbsp; <a href="index.html">Back to Dashboard</a>
+      </footer>
+    </main>
+  </body>
+</html>

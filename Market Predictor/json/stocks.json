@@ -1,0 +1,4402 @@
+{
+  "sp500": {
+    "symbol": "^GSPC",
+    "last_date": "2025-12-09",
+    "last_close": 6840.509765625,
+    "source": "yfinance"
+  },
+  "predictions": [
+    {
+      "Ticker": "A",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AAPL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ABBV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ABT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ACGL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ACN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ADBE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ADI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ADM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ADP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ADSK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AEE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AEP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AES",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AFL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AIG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AIZ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AJG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AKAM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ALB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ALGN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ALL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ALLE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AMAT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AMCR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AMD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AME",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AMGN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AMP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AMT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AMZN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ANET",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AON",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AOS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "APA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "APD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "APH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "APO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "APTV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ARE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ATO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AVB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AVGO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AVY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AWK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AXON",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AXP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "AZO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BAC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BALL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BAX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BBY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BDX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BEN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BIIB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BKNG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BKR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BLDR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BLK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BMY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BRO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BSX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "BXP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "C",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CAG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CAH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CARR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CAT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CBOE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CBRE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CCI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CCL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CDNS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CDW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CF",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CFG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CHD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CHRW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CHTR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CINF",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CLX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CMCSA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CME",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CMG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CMI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CMS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CNC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "BUY",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CNP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "COF",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "COO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "COP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "COR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "COST",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CPAY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CPB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CPRT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CPT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CRL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CRM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CRWD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CSCO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CSGP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CSX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CTAS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CTRA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CTSH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CTVA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CVS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "CVX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "D",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DAL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DAY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DDOG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DECK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DELL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DGX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DHI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DHR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DIS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DLR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DLTR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DOC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DOV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DOW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DPZ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "BUY",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DRI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DTE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DUK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DVA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DVN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "DXCM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EBAY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ECL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ED",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EFX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EIX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ELV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EME",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EMN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EMR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EOG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EPAM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EQIX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EQR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EQT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ERIE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ES",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ESS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ETN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ETR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EVRG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EXC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EXPD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EXPE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "EXR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "F",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FANG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FAST",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FCX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FDS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FDX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FFIV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FICO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FIS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FITB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FOX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FOXA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FRT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FSLR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FTNT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "FTV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GDDY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GEN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GILD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GIS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GLW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GNRC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GOOG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GOOGL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GPC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GPN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GRMN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "GWW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HAL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HAS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HBAN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HCA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HIG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HII",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HLT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HOLX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HON",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HPE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HPQ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HRL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HSIC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HST",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HSY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HUBB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HUM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "HWM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IBKR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IBM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ICE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IDXX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IEX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IFF",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "INCY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "INTC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "INTU",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "INVH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IPG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IQV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IRM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ISRG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ITW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "IVZ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "J",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "JBHT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "JBL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "JCI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "JKHY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "JNJ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "JPM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "K",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KDP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KEY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KEYS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KHC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KIM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KKR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KLAC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KMB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KMI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KMX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "KR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "L",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LDOS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LEN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LHX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LII",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LIN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LKQ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LLY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LMT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LNT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LOW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LRCX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LULU",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LUV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LVS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LYB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "LYV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MAA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MAR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MAS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MCD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MCHP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MCK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MCO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MDLZ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MDT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MET",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "META",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MGM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MHK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MKC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MLM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MMC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MMM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MNST",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MOH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MOS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MPC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MPWR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MRK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MRNA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MSCI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MSFT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MSI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MTB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MTCH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MTD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "MU",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NCLH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NDAQ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NDSN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NEE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NEM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NFLX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NKE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NOC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NOW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NRG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NSC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NTAP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NTRS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NUE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NVDA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NVR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NWS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NWSA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "NXPI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "O",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ODFL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "OKE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "OMC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ON",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ORCL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ORLY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "OTIS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "OXY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PANW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PAYC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PAYX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PCAR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PCG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PEG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PEP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PFE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PFG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PGR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PHM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PKG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PLD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PNC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PNR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PNW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PODD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "POOL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PPG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PPL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PRU",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PSA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PSKY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PSX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PTC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PWR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "PYPL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "QCOM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "RCL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "REG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "REGN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "RF",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "RJF",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "RL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "RMD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ROK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ROL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ROP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ROST",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "RSG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "RTX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "RVTY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SBAC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SBUX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SCHW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SHW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SJM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SLB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SMCI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SNA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SNPS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SPG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SPGI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SRE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "STE",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "STLD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "BUY",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "STT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "STX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "STZ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SWK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SWKS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SYF",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SYK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "SYY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "T",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TAP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TDG",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TDY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TECH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TEL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TER",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TFC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TGT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TJX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TKO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TMO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TMUS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TPL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TPR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TRGP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TRMB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TROW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TRV",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TSCO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TSLA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TSN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TTD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TTWO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TXN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TXT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "TYL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "UAL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "UBER",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "UDR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "UHS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ULTA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "UNH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "UNP",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "UPS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "URI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "USB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "V",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VICI",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VLO",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VMC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VRSK",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VRSN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VRTX",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VST",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VTR",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VTRS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "VZ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WAB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WAT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WBD",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WDAY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WDC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WEC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WELL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WFC",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WMB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WMT",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WRB",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WSM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WST",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WTW",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WY",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "WYNN",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "XEL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "BUY",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "XOM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "SELL",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "XYL",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "XYZ",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "YUM",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ZBH",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "BUY",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ZBRA",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    },
+    {
+      "Ticker": "ZTS",
+      "AsOfDate": "2020-09-23T00:00:00.000",
+      "Action_1d": "SELL",
+      "Action_1m": "SELL",
+      "Action_1y": "SELL",
+      "Action_5y": "BUY",
+      "Combined_Action": "HOLD"
+    }
+  ]
+}
