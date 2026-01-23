@@ -146,6 +146,3 @@ Contact / Maintainers
 
 If you are continuing this project, keep the README updated with any changes to the data shapes or JSON files. The UI reads two canonical JSON shapes — keep backwards compatibility if possible (Pred_*/Action_* fields and Combined_Action/Final_Action fallback).
 
-License
--------
-This repository is provided as-is (add your chosen license here).
